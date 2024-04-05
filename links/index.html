@@ -461,58 +461,125 @@ header .header__right .dropdown-menus .dropdown-menu {
 </div>
 <div class="links-page" style="padding-top:10px;" id="links-page">
     
-    
-      <script>
-        (async () => {
-          var res = await fetch('');
-          var json = await res.json();
-          console.log(json);
-          const Linkscontainer = document.getElementById('links-page');
-          json.forEach(item => {
-            const element = document.createElement('div');
-            element.className = "links-card";
-
-            element.innerHTML = `
-        <a href="${item.link}" class="links-card-body" target="_blank" rel="noopener">
+      
+      <div class="links-card">
+        <a href="https://www.ecust.fun/" class="links-card-body" target="_blank" rel="noopener">
           <div class="links-card-content">
+            
               <div class="link-avatar my-auto">
-                
-                  <img webp-comp class="lazyload-img" data-srcset="${item.image}" srcset="/img/loading.svg" src="${item.image}" alt="${item.title}" />
-                
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/xuslogo.jpg" alt="Palpitate&#39;s Blog" />
               </div>
+            
             <div class="link-text">
-              <div class="link-title">${item.title}</div>
-              <div class="link-intro">${item.intro}</div>
+              <div class="link-title">Palpitate's Blog</div>
+              <div class="link-intro">Palpitate</div>
             </div>
           </div>
         </a>
-            `;
-            Linkscontainer.appendChild(element);
-          });
-          setTimeout(function () {
-  function query(selector) {
-    return Array.from(document.querySelectorAll(selector));
-}
+      </div>
     
-var io = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-        if (entry.isIntersecting) { 
-            var img = entry.target;
-            img.srcset = img.getAttribute('data-srcset');
-            img.className += ' loaded'
-            io.unobserve(img);
-        }
-    });
-});
+      
+      <div class="links-card">
+        <a href="https://zyqs.xyz/" class="links-card-body" target="_blank" rel="noopener">
+          <div class="links-card-content">
+            
+              <div class="link-avatar my-auto">
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/chinazyqlogo.jpg" alt="chinazyq" />
+              </div>
+            
+            <div class="link-text">
+              <div class="link-title">chinazyq</div>
+              <div class="link-intro">ZDisk</div>
+            </div>
+          </div>
+        </a>
+      </div>
     
-query('.lazyload-img').forEach(function (item) {
-    io.observe(item);
-});
-},0)
-        })();
-
-
-      </script>
+      
+      <div class="links-card">
+        <a href="https://blog.ukericpz.com/" class="links-card-body" target="_blank" rel="noopener">
+          <div class="links-card-content">
+            
+              <div class="link-avatar my-auto">
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/ukelogo.png" alt="乆鸽 UKEricPZ" />
+              </div>
+            
+            <div class="link-text">
+              <div class="link-title">乆鸽 UKEricPZ</div>
+              <div class="link-intro">UKEricPZ</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      <div class="links-card">
+        <a href="http://blog.holo19.fun/" class="links-card-body" target="_blank" rel="noopener">
+          <div class="links-card-content">
+            
+              <div class="link-avatar my-auto">
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/holologo.jpg" alt="Holoの窝" />
+              </div>
+            
+            <div class="link-text">
+              <div class="link-title">Holoの窝</div>
+              <div class="link-intro">Holo</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      <div class="links-card">
+        <a href="https://teruenight.github.io/" class="links-card-body" target="_blank" rel="noopener">
+          <div class="links-card-content">
+            
+              <div class="link-avatar my-auto">
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/huiyelogo.jpg" alt="尘世之外の咖啡屋" />
+              </div>
+            
+            <div class="link-text">
+              <div class="link-title">尘世之外の咖啡屋</div>
+              <div class="link-intro">辉夜</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      <div class="links-card">
+        <a href="https://nakiri.com.cn/" class="links-card-body" target="_blank" rel="noopener">
+          <div class="links-card-content">
+            
+              <div class="link-avatar my-auto">
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/nakirilogo.jpg" alt="Nakiri Ayame" />
+              </div>
+            
+            <div class="link-text">
+              <div class="link-title">Nakiri Ayame</div>
+              <div class="link-intro">百鬼Nakiri</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      <div class="links-card">
+        <a href="https://absx.pages.dev/" class="links-card-body" target="_blank" rel="noopener">
+          <div class="links-card-content">
+            
+              <div class="link-avatar my-auto">
+                <img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/absxlogo.jpg" alt="绝对值x的博客" />
+              </div>
+            
+            <div class="link-text">
+              <div class="link-title">绝对值x的博客</div>
+              <div class="link-intro">绝对值x</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
     
 </div>
 </article>
