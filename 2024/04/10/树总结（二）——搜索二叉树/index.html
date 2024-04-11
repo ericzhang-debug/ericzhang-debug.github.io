@@ -482,7 +482,7 @@ header .header__right .dropdown-menus .dropdown-menu {
       
       <span class="post-meta">
         <span class="p-dot"></span>
-        共 576 字
+        共 680 字
       </span>
     
     
@@ -501,7 +501,7 @@ header .header__right .dropdown-menus .dropdown-menu {
 <div class="article-m">
   <div class="post-toc">
     
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E7%82%B9"><span class="toc-number">1.</span> <span class="toc-text">特点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C"><span class="toc-number">2.</span> <span class="toc-text">相关操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-number">2.1.</span> <span class="toc-text">搜索二叉树的定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.2.</span> <span class="toc-text">方法实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%92%E5%85%A5"><span class="toc-number">2.2.1.</span> <span class="toc-text">插入</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2"><span class="toc-number">2.2.2.</span> <span class="toc-text">搜索</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E6%9C%80%E5%A4%A7%E5%85%83"><span class="toc-number">2.2.3.</span> <span class="toc-text">获取最大元</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E6%9C%80%E5%B0%8F%E5%85%83"><span class="toc-number">2.2.4.</span> <span class="toc-text">获取最小元</span></a></li></ol></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E7%82%B9"><span class="toc-number">1.</span> <span class="toc-text">特点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C"><span class="toc-number">2.</span> <span class="toc-text">相关操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-number">2.1.</span> <span class="toc-text">搜索二叉树的定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.2.</span> <span class="toc-text">方法实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%92%E5%85%A5"><span class="toc-number">2.2.1.</span> <span class="toc-text">插入</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2"><span class="toc-number">2.2.2.</span> <span class="toc-text">搜索</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%80%92%E5%BD%92%E7%9A%84%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.2.2.1.</span> <span class="toc-text">递归的实现</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.2.2.2.</span> <span class="toc-text">递归实现</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E6%9C%80%E5%A4%A7%E5%85%83"><span class="toc-number">2.2.3.</span> <span class="toc-text">获取最大元</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E6%9C%80%E5%B0%8F%E5%85%83"><span class="toc-number">2.2.4.</span> <span class="toc-text">获取最小元</span></a></li></ol></li></ol></li></ol>
     
   </div>
     <div id="article">
@@ -540,8 +540,9 @@ public:
     void insert(int x); &#x2F;&#x2F;插入数据
     int min(); &#x2F;&#x2F;获得最小元
     int max(); &#x2F;&#x2F;获得最大元
-    Node* find(int x);  &#x2F;&#x2F;搜索
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    Node* find(int x);  &#x2F;&#x2F;递归搜索
+    Node* findA(int x); &#x2F;&#x2F;非递归搜索
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h3 id="方法实现"><a href="#方法实现" class="headerlink" title="方法实现"></a>方法实现</h3><h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><p><img src="https://cdn.jsdelivr.net/gh/ericzhang-debug/MyPics@main/20240410223157.png"></p>
 <pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">Node* BST::Insert(Node* T,int x)&#123;
     if(T&#x3D;&#x3D;nullptr)&#123;
@@ -566,7 +567,22 @@ void BST::insert(int x)&#123;
     this-&gt;Insert(this-&gt;root,x);
 &#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h4><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">Node* BST::Find(Node* T,int x)&#123;
+<h4 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h4><p>通常情况下来说，非递归的实现相比于递归的实现来说效率要更高一些</p>
+<h5 id="递归的实现"><a href="#递归的实现" class="headerlink" title="递归的实现"></a>递归的实现</h5><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">Node* BST::findA(int x)&#123;
+    Node* T&#x3D;this-&gt;root;
+    while(T!&#x3D;nullptr)&#123;
+        if(x&gt;T-&gt;data)&#123;
+            T&#x3D;T-&gt;right;
+        &#125;else if(x&lt;T-&gt;data)&#123;
+            T&#x3D;T-&gt;left;
+        &#125;else&#123;
+            break;
+        &#125;
+    &#125;
+    return T;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h5 id="递归实现"><a href="#递归实现" class="headerlink" title="递归实现"></a>递归实现</h5><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">Node* BST::Find(Node* T,int x)&#123;
     if(T&#x3D;&#x3D;nullptr)&#123;
         return nullptr;
     &#125;else if(T-&gt;data&lt;x)&#123;
